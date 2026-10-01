@@ -3,431 +3,151 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anand Pareek — AI Product Leader &amp; Builder</title>
-<meta name="description" content="Product & Growth Director at Fynd (PixelBin). 14 years across strategy consulting and product — the last 6 building AI & analytics products. Agentic pipelines, RAG, evals and MCP in production. Nine live AI apps on AWS, plus other independent projects.">
-<meta property="og:title" content="Anand Pareek — AI Product Leader & Builder">
-<meta property="og:description" content="P&L owner of Fynd's AI media-generation suite. Builds production AI products end-to-end — agentic pipelines, RAG, evals, MCP servers.">
+<meta name="theme-color" content="#ffffff">
+<title>Anand Pareek — AI Product &amp; Growth Leader</title>
+<meta name="description" content="AI product and growth leader with P&amp;L ownership, enterprise consulting experience and hands-on depth in agentic systems, RAG, evaluations and post-training. Explore Anand Pareek’s résumé, nine live AI products and open-source work.">
+<meta property="og:title" content="Anand Pareek — AI Product &amp; Growth Leader">
+<meta property="og:description" content="Product strategy. Commercial ownership. Hands-on AI. Explore my experience, nine live products and applied post-training work.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://anand-pareek.vercel.app/">
-<meta property="og:image" content="https://anand-pareek.vercel.app/assets/shots/geo-radar-mcp.png">
+<meta property="og:image" content="https://anand-pareek.vercel.app/assets/shots/aws-agentic-learning-studio.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://anand-pareek.vercel.app/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d7370'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' fill='%23f7f5f0' text-anchor='middle'%3EAP%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232563eb'/%3E%3Ctext x='32' y='41' font-family='Arial,sans-serif' font-size='25' font-weight='700' fill='white' text-anchor='middle'%3EAP%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-:root{
-  --bg:#f7f5f0; --card:#ffffff; --ink:#181815; --muted:#5c5a52; --faint:#6e6b5e;
-  --line:#e6e2d8; --accent:#0d7370; --accent-ink:#0a5c5a; --accent-soft:#e3efee;
-  --dark:#14201f; --serif:"Fraunces",Georgia,serif; --sans:"Inter",-apple-system,sans-serif;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
-a{color:var(--accent-ink);text-decoration:none}
-a:hover{text-decoration:underline}
-.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
-
-/* ---------- header ---------- */
-header{position:sticky;top:0;z-index:50;background:rgba(247,245,240,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:64px}
-.brand{font-family:var(--serif);font-weight:600;font-size:1.15rem;letter-spacing:.01em;color:var(--ink)}
-.brand:hover{text-decoration:none}
-.brand span{color:var(--accent)}
-.tabs{display:flex;gap:4px;background:#efece4;border:1px solid var(--line);border-radius:999px;padding:4px}
-.tab-btn{appearance:none;border:0;background:transparent;font-family:var(--sans);font-size:.92rem;font-weight:600;color:var(--muted);padding:8px 22px;border-radius:999px;cursor:pointer;transition:all .2s}
-.tab-btn:hover{color:var(--ink)}
-.tab-btn.active{background:var(--ink);color:#fff}
-.nav-cta{font-size:.88rem;font-weight:600;color:var(--ink);border:1px solid var(--ink);border-radius:999px;padding:8px 18px;transition:all .2s}
-.nav-cta:hover{background:var(--ink);color:#fff;text-decoration:none}
-
-/* ---------- hero ---------- */
-.hero{padding:72px 0 40px}
-.eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:18px}
-h1.name{font-family:var(--serif);font-weight:500;font-size:clamp(2.6rem,6vw,4.4rem);line-height:1.05;letter-spacing:-.01em}
-h1.name em{font-style:italic;color:var(--accent)}
-.lede{max-width:760px;margin-top:24px;font-size:1.13rem;color:var(--muted);line-height:1.75}
-.lede strong{color:var(--ink);font-weight:600}
-.contact-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
-.chip{display:inline-flex;align-items:center;gap:8px;font-size:.88rem;font-weight:500;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 16px;transition:border-color .2s}
-.chip:hover{border-color:var(--accent);text-decoration:none}
-.chip svg{width:15px;height:15px;stroke:var(--accent);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:44px 0 8px}
-.stat{background:var(--card);padding:22px 24px}
-.stat b{display:block;font-family:var(--serif);font-size:1.9rem;font-weight:500;color:var(--ink);line-height:1.2}
-.stat span{font-size:.84rem;color:var(--faint)}
-
-/* ---------- dual positioning ---------- */
-.duo{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:34px 0 10px}
-.duo-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px 28px}
-.duo-card h3{font-family:var(--serif);font-size:1.18rem;font-weight:600;margin-bottom:10px}
-.duo-card h3 span{color:var(--accent)}
-.duo-card p{font-size:.94rem;color:var(--muted)}
-
-/* ---------- shared section styles ---------- */
-main{padding:28px 0 80px}
-section.panel{display:none}
-section.panel.active{display:block;animation:fade .35s ease}
-@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-h2.sec{font-family:var(--serif);font-weight:500;font-size:1.9rem;margin:56px 0 8px;letter-spacing:-.01em}
-.sec-sub{color:var(--faint);font-size:.95rem;margin-bottom:26px;max-width:720px}
-.rule{height:1px;background:var(--line);margin-top:14px;margin-bottom:26px}
-
-/* ---------- resume: summary ---------- */
-.summary-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
-.sum-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
-.sum-card .k{font-size:.76rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
-.sum-card p{font-size:.93rem;color:var(--muted)}
-.sum-card p strong{color:var(--ink)}
-
-/* ---------- resume: competencies ---------- */
-.comp-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
-.comp-col{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px 26px}
-.comp-col h4{font-family:var(--serif);font-size:1.05rem;font-weight:600;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--line)}
-.comp-col ul{list-style:none}
-.comp-col li{font-size:.9rem;color:var(--muted);padding:5px 0 5px 20px;position:relative}
-.comp-col li::before{content:"";position:absolute;left:2px;top:13px;width:7px;height:7px;border-radius:2px;background:var(--accent);opacity:.55}
-
-/* ---------- resume: experience timeline ---------- */
-.xp{position:relative;padding-left:34px}
-.xp::before{content:"";position:absolute;left:8px;top:10px;bottom:10px;width:1px;background:var(--line)}
-.job{position:relative;padding-bottom:44px}
-.job::before{content:"";position:absolute;left:-30px;top:8px;width:13px;height:13px;border-radius:50%;background:var(--accent);border:3px solid var(--bg)}
-.job-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:4px}
-.job-head h3{font-family:var(--serif);font-size:1.35rem;font-weight:600}
-.job-org{font-size:.98rem;font-weight:600;color:var(--accent-ink)}
-.job-date{font-size:.84rem;color:var(--faint);font-weight:500;margin-left:auto}
-.job-intro{font-size:.95rem;color:var(--muted);font-style:italic;margin:6px 0 14px;max-width:820px}
-.job h5{font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:18px 0 8px}
-.job ul{list-style:none;max-width:860px}
-.job li{font-size:.94rem;color:var(--muted);padding:5px 0 5px 22px;position:relative}
-.job li::before{content:"▪";position:absolute;left:2px;color:var(--accent);font-size:.7rem;top:9px}
-.job li strong{color:var(--ink);font-weight:600}
-
-/* ---------- resume: edu/awards ---------- */
-.two-col{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}
-.info-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px 28px}
-.info-card h3{font-family:var(--serif);font-size:1.2rem;font-weight:600;margin-bottom:14px}
-.info-card ul{list-style:none}
-.info-card li{font-size:.92rem;color:var(--muted);padding:6px 0 6px 22px;position:relative}
-.info-card li::before{content:"▪";position:absolute;left:2px;color:var(--accent);font-size:.7rem;top:10px}
-.info-card li strong{color:var(--ink)}
-.dl-band{margin-top:44px;background:var(--dark);border-radius:18px;padding:34px 38px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px}
-.dl-band p{color:#cfd8d6;font-size:.98rem;max-width:560px}
-.dl-band p b{color:#fff}
-.btn-light{display:inline-flex;align-items:center;gap:8px;background:#fff;color:var(--ink);font-weight:600;font-size:.92rem;border-radius:999px;padding:12px 26px;transition:transform .15s}
-.btn-light:hover{transform:translateY(-1px);text-decoration:none}
-
-/* ---------- projects ---------- */
-.proj-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
-.proj{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .25s,transform .25s}
-.proj:hover{box-shadow:0 14px 40px rgba(20,32,31,.1);transform:translateY(-3px)}
-.shot{aspect-ratio:16/10;overflow:hidden;border-bottom:1px solid var(--line);background:#1a1a22;position:relative}
-.shot img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
-.shot .live-dot{position:absolute;top:14px;right:14px;background:rgba(255,255,255,.92);border-radius:999px;font-size:.72rem;font-weight:700;color:#0a7a3d;padding:4px 12px;display:flex;align-items:center;gap:6px}
-.shot .live-dot::before{content:"";width:7px;height:7px;border-radius:50%;background:#12b95f}
-.shot.placeholder{display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#0e2a28,#14494a 60%,#0d7370)}
-.shot.placeholder span{font-family:var(--serif);font-style:italic;font-size:2rem;color:rgba(255,255,255,.9)}
-.proj-body{padding:24px 26px 26px;display:flex;flex-direction:column;flex:1}
-.proj-body h3{font-family:var(--serif);font-size:1.35rem;font-weight:600;display:flex;align-items:baseline;gap:10px}
-.proj-body .role{font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:4px 0 10px}
-.proj-body p{font-size:.93rem;color:var(--muted);flex:1}
-.tags{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 18px}
-.tag{font-size:.76rem;font-weight:600;color:var(--accent-ink);background:var(--accent-soft);border-radius:999px;padding:4px 12px}
-.proj-links{display:flex;gap:14px}
-.plink{font-size:.88rem;font-weight:600;display:inline-flex;align-items:center;gap:6px}
-.plink svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-
-.oss-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
-.oss{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px 28px;transition:box-shadow .25s}
-.oss:hover{box-shadow:0 10px 30px rgba(20,32,31,.08)}
-.oss h3{font-family:var(--serif);font-size:1.25rem;font-weight:600;display:flex;align-items:center;gap:10px}
-.star{font-size:.8rem;font-weight:700;color:#8a6d1a;background:#f6ecc9;border-radius:999px;padding:3px 11px}
-.oss p{font-size:.92rem;color:var(--muted);margin:10px 0 16px}
-
-.pb-band{background:var(--dark);border-radius:20px;padding:40px 44px;color:#e8eeed;margin-top:8px}
-.pb-band h3{font-family:var(--serif);font-size:1.6rem;font-weight:500;margin-bottom:6px}
-.pb-band .pb-sub{color:#9fb3b0;font-size:.94rem;margin-bottom:26px;max-width:760px}
-.pb-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
-.pb-item{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);border-radius:14px;padding:18px 20px}
-.pb-item b{display:block;font-size:.95rem;color:#fff;margin-bottom:5px}
-.pb-item span{font-size:.85rem;color:#9fb3b0;line-height:1.5;display:block}
-
-
-/* AWS gallery: screenshots are real app captures, presented without cropping. */
-.project-intro{padding:38px 0 32px;max-width:840px}
-.project-intro .eyebrow{margin-bottom:10px}
-.project-intro .sec{font-size:clamp(2rem,4vw,3.1rem);line-height:1.15;margin:0 0 18px}
-.project-intro .sec-sub{font-size:1.02rem;line-height:1.75;margin-bottom:22px}
-.portfolio-facts{display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--muted);font-size:.8rem}
-.portfolio-facts span{display:flex;align-items:center;gap:7px}
-.portfolio-facts span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent)}
-.aws-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
-.aws-project{min-width:0}
-.aws-preview{display:grid;place-items:center;aspect-ratio:16/10;padding:18px;background:#edf1ed;border-bottom:1px solid var(--line);overflow:hidden;text-decoration:none}
-.aws-preview:hover{text-decoration:none}
-.preview-window{width:100%;min-width:0;background:#fff;border:1px solid #d9dfd9;border-radius:9px;overflow:hidden;box-shadow:0 8px 24px rgba(20,32,31,.09)}
-.preview-bar{height:28px;display:flex;align-items:center;gap:8px;padding:0 11px;background:#f7f8f6;border-bottom:1px solid #e5e9e3;color:#696f69;font-size:9px;line-height:1;white-space:nowrap}
-.window-dots{display:flex;gap:4px;margin-right:3px}.window-dots i{width:5px;height:5px;background:#c7ccc5;border-radius:50%}
-.aws-live{margin-left:auto;color:#176140;font-weight:600;display:flex;align-items:center;gap:4px}
-.aws-live::before{content:"";width:4px;height:4px;border-radius:50%;background:#2b9164}
-.preview-image{aspect-ratio:16/10;display:grid;place-items:center;background:#f8f9f7}
-.preview-image img{width:100%;height:100%;display:block;object-fit:contain;object-position:center}
-.aws-project .proj-body{padding:25px 26px 26px}
-.aws-project .role{text-transform:none;letter-spacing:0;font-size:.9rem;line-height:1.5;font-weight:600;margin:8px 0 12px}
-.aws-project .proj-body p{font-size:.91rem;line-height:1.75}
-.aws-project .tags{margin-top:20px;gap:6px}
-.aws-project .tag{font-size:.71rem;padding:4px 10px}
-.live-link{background:var(--dark);color:#fff;border:1px solid var(--dark);border-radius:999px;padding:9px 16px;font-size:.82rem}
-.live-link:hover{background:var(--accent-ink);border-color:var(--accent-ink);text-decoration:none}
-.aws-preview:focus-visible,.live-link:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
-.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-@media(max-width:920px){.aws-grid{grid-template-columns:minmax(0,1fr)}}
-@media(max-width:480px){.aws-preview{padding:12px}.aws-project .proj-body{padding:22px}.project-intro{padding-top:26px}.portfolio-facts{gap:8px 14px;font-size:.76rem}}
-@media(prefers-reduced-motion:reduce){.proj{transition:none}.proj:hover{transform:none}}
-
-/* ---------- footer ---------- */
-footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
-.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:center}
-.foot .fbrand{font-family:var(--serif);font-size:1.1rem;font-weight:600}
-.foot p{font-size:.86rem;color:var(--faint)}
-.foot-links{display:flex;gap:18px;font-size:.88rem;font-weight:500}
-
-@media(max-width:920px){
-  footer{padding-bottom:130px}
-  .stats{grid-template-columns:1fr 1fr}
-  .summary-grid,.comp-grid,.pb-grid{grid-template-columns:1fr}
-  .duo,.proj-grid,.oss-grid,.two-col{grid-template-columns:1fr}
-  .tabs{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);box-shadow:0 8px 30px rgba(0,0,0,.14);background:#fff;z-index:60}
-  .nav-cta{display:none}
-  .job-date{margin-left:0;width:100%}
-}
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700;750;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/portfolio.css">
+<script src="assets/portfolio.js" defer></script>
 </head>
-<body>
-
-<header>
+<body data-panel="resume">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
   <div class="wrap nav">
-    <a class="brand" href="#resume">Anand <span>Pareek</span></a>
-    <div class="tabs" role="tablist" aria-label="Site sections">
-      <button class="tab-btn active" id="tab-resume" role="tab" aria-selected="true" aria-controls="resume" data-panel="resume">Résumé</button>
-      <button class="tab-btn" id="tab-projects" role="tab" aria-selected="false" aria-controls="projects" data-panel="projects">Projects</button>
-    </div>
-    <a class="nav-cta" href="assets/Anand_Pareek_Resume.pdf" download>Download CV</a>
+    <a class="brand" href="#resume" aria-label="Anand Pareek, résumé"><span class="brand-mark" aria-hidden="true">ap<span>.</span></span><span class="brand-name">Anand Pareek<span>AI product &amp; growth</span></span></a>
+    <nav class="tabs" role="tablist" aria-label="Portfolio sections">
+      <button class="tab-btn active" id="tab-resume" role="tab" aria-selected="true" aria-controls="resume" data-panel="resume" tabindex="0">Résumé</button>
+      <button class="tab-btn" id="tab-projects" role="tab" aria-selected="false" aria-controls="projects" data-panel="projects" tabindex="-1">Projects</button>
+    </nav>
+    <a class="nav-cta" href="assets/Anand_Pareek_Resume.pdf" download="Anand_Pareek_Resume_2026.pdf">Download CV <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v5h14v-5"/></svg></a>
   </div>
 </header>
-
-<div class="wrap hero">
-  <div class="eyebrow">AI Product Leader · Hands-on Builder · Mumbai, India</div>
-  <h1 class="name">Anand <em>Pareek</em></h1>
-  <p class="lede">I run <strong>PixelBin — Fynd's AI media-generation suite of 15+ tools</strong> — as P&amp;L owner, reporting to the founder. And I build production AI products end-to-end myself: agentic pipelines, RAG, evals and MCP servers — nine live apps on AWS, alongside other independent projects. At PixelBin, I also work on production AI architecture on GCP. Fourteen years across strategy consulting and product — the last six building AI &amp; analytics products — taught me both how businesses buy and how to build what they buy.</p>
-  <div class="contact-row">
-    <a class="chip" href="mailto:anandp.pareek6@gmail.com"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z" opacity="0"/><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>anandp.pareek6@gmail.com</a>
-    <a class="chip" href="tel:+917738525550"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+91 77385 25550</a>
-    <a class="chip" href="https://github.com/APareek89" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-1-2.6c3.2-.4 6.5-1.6 6.5-7A5.4 5.4 0 0 0 20 4.8 5 5 0 0 0 19.9 1S18.7.6 16 2.5a13.4 13.4 0 0 0-7 0C6.3.6 5.1 1 5.1 1A5 5 0 0 0 5 4.8a5.4 5.4 0 0 0-1.5 3.7c0 5.4 3.3 6.6 6.4 7a3.4 3.4 0 0 0-.9 2.6V22"/></svg>github.com/APareek89</a>
+<main id="main-content" tabindex="-1">
+<section class="panel active" id="resume" role="tabpanel" aria-labelledby="tab-resume" tabindex="0">
+  <div class="wrap hero">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="eyebrow-line"></span> AI product &amp; growth leader</p>
+      <h1 class="name">Anand Pareek<span class="name-dot">.</span></h1>
+      <p class="hero-statement">From business opportunity<br>to <span>a working AI product.</span></p>
+      <p class="lede">I combine P&amp;L ownership and enterprise consulting experience with hands-on AI solution design. My work spans product strategy, growth and the systems that make AI useful—from agentic workflows to model evaluation and post-training.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a><a class="button button-secondary" href="mailto:anandp.pareek6@gmail.com">Let’s connect <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a></div>
+      <div class="hero-meta"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Mumbai, India</span><a href="https://github.com/APareek89" target="_blank" rel="noopener">GitHub ↗</a><a href="tel:+917738525550">+91 77385 25550</a></div>
+    </div>
+    <aside class="hero-card" aria-label="Experience at a glance">
+      <div class="hero-card-label"><span class="small-dot"></span> Experience at a glance</div>
+      <div class="hero-focus"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20V9l8-5 8 5v11M8 20v-6h8v6M9 9h6"/></svg></span><div><h2>Product &amp; P&amp;L</h2><p>AI media-generation suite<br>Fynd · PixelBin</p></div></div>
+      <div class="hero-focus"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 16 5-5 4 3 6-8M15 6h5v5M4 4v16h16"/></svg></span><div><h2>Strategy &amp; transformation</h2><p>Deloitte · PwC · KPMG<br>Enterprise products and GTM</p></div></div>
+      <div class="hero-focus"><span class="focus-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 8-4 4 4 4m8-8 4 4-4 4M14 4l-4 16"/></svg></span><div><h2>Hands-on AI practice</h2><p>Live products · Open source<br>Applied post-training</p></div></div>
+      <div class="hero-card-footer"><span>IIT Bombay</span><span>Aerospace Engineering</span></div>
+    </aside>
   </div>
-
-</div>
-
-<main class="wrap">
-
-<!-- ============================ RESUME ============================ -->
-<section class="panel active" id="resume" role="tabpanel" aria-labelledby="tab-resume">
-
-  <div class="stats">
-    <div class="stat"><b>14 yrs</b><span>Across strategy consulting &amp; product — Deloitte, PwC, KPMG, Fynd</span></div>
-    <div class="stat"><b>6 yrs</b><span>Of those building AI &amp; analytics products, 0→1 to P&amp;L</span></div>
-    <div class="stat"><b>15+</b><span>AI tools owned in the PixelBin suite</span></div>
-    <div class="stat"><b>9</b><span>Live AI apps on AWS, plus other projects</span></div>
-  </div>
-
-  <div class="duo">
-    <div class="duo-card">
-      <h3>As a <span>product leader</span></h3>
-      <p>P&amp;L ownership, strategy resets, pricing &amp; monetization, PLG and SEO/GEO growth. Repositioned point tools into a platform; 10+ releases in 3 months; highest-ever revenue for 3 consecutive months.</p>
-    </div>
-    <div class="duo-card">
-      <h3>As an <span>AI engineer</span></h3>
-      <p>Agentic workflows, RAG, evals, MCP and multi-model pipelines — designed and shipped in production. Python, JavaScript, SQL; GCP architecture; LangChain/LangGraph; 20+ custom Claude skills authored.</p>
-    </div>
-  </div>
-
-  <h2 class="sec">Profile</h2>
-  <div class="rule"></div>
-  <div class="summary-grid">
-    <div class="sum-card">
-      <div class="k">AI &amp; Analytics Products</div>
-      <p><strong>6 years in AI &amp; analytics products</strong> — today running Fynd's AI media-generation suite (PixelBin) hands-on across strategy, solutioning, architecture and growth; earlier taking an enterprise analytics product 0→1 at Deloitte with GTM across India, Germany &amp; Japan.</p>
-    </div>
-    <div class="sum-card">
-      <div class="k">Current, Deep AI Craft</div>
-      <p><strong>Agentic pipelines, RAG, evals, MCP</strong> and multi-model workflows — built daily, in production, on GCP. Not slideware: working products with users, revenue and reliability targets.</p>
-    </div>
-    <div class="sum-card">
-      <div class="k">Consulting Backbone</div>
-      <p><strong>14 years in consulting</strong> — strategy planning, CX strategy, business-performance improvement and AI solution design across Automotive, Industrial Products, Chemical, Pharma and FMCG; 10+ years leading teams and senior-leadership conversations.</p>
-    </div>
-  </div>
-
-  <h2 class="sec">Core Competencies</h2>
-  <div class="rule"></div>
-  <div class="comp-grid">
-    <div class="comp-col">
-      <h4>AI Engineering</h4>
-      <ul>
-        <li>AI &amp; LLM applications — RAG, evals, agentic workflows, MCP</li>
-        <li>LangChain, LangGraph, prompt engineering &amp; tool calling</li>
-        <li>Python, JavaScript, SQL, pandas</li>
-        <li>Claude, Codex, custom Claude skills, Vercel dashboards</li>
-        <li>Cloud: GCP (production AI architecture); AWS Bedrock (cert. Aug 2026)</li>
-      </ul>
-    </div>
-    <div class="comp-col">
-      <h4>Product Leadership</h4>
-      <ul>
-        <li>Product strategy, roadmap planning &amp; P&amp;L ownership</li>
-        <li>PRDs &amp; specs, solution architecture</li>
-        <li>Pricing &amp; monetization</li>
-        <li>PLG, SEO / GEO, conversion optimization &amp; product GTM</li>
-      </ul>
-    </div>
-    <div class="comp-col">
-      <h4>Growth &amp; Analytics</h4>
-      <ul>
-        <li>A/B testing, funnel &amp; cohort analysis</li>
-        <li>PostHog, GA4, Paddle, Sentry</li>
-        <li>Google Search Console, Ahrefs, Neo4j</li>
-      </ul>
-    </div>
-  </div>
-
-  <h2 class="sec">Experience</h2>
-  <div class="rule"></div>
-  <div class="xp">
-
-    <div class="job">
-      <div class="job-head">
-        <h3>Product &amp; Growth Director</h3>
-        <span class="job-org">Fynd — PixelBin</span>
-        <span class="job-date">October 2025 — Present</span>
-      </div>
-      <p class="job-intro">Report directly to the Founder; own the P&amp;L, leadership reporting and product roadmap for Fynd's AI media-generation suite — 15+ tools (PixelBin, WatermarkRemover.io, Upscale.media, EraseBG).</p>
-      <h5>Product Strategy &amp; Ownership</h5>
-      <ul>
-        <li>Repositioned point tools (watermark removal, upscaling) into a <strong>full AI media-generation platform</strong> for non-designers and beginner creators; opened MCP as a new distribution surface.</li>
-        <li>Reset product strategy, ICP and roadmap against team capacity — <strong>10+ releases in 3 months</strong> vs 2–3 the prior year; drove <strong>highest-ever revenue for 3 consecutive months</strong>.</li>
-        <li>Own growth end-to-end — SEO technical &amp; content (150+ tool pages/blogs), pricing, power-user conversion, offers and a B2B sales motion; aligned engineering, ML, growth and SEO KPIs to per-tool revenue goals.</li>
-        <li>Mined user signals — prompt types, user profiles, model/feature usage — to prioritize features that lift conversion.</li>
-      </ul>
-      <h5>Product, Solutioning &amp; Architecture</h5>
-      <ul>
-        <li>Designed the end-to-end pipeline and <strong>agentic flow for a Creative Agent</strong>; led solutioning for a Marketing Studio that produces agency-grade creative end-to-end.</li>
-        <li>Lead product design and solutioning for image &amp; video generation across models (nanoBanana, Kling, PixVerse, Seedance) — model selection, generation workflows, I/O parameters, UX and pricing.</li>
-        <li>Work in-depth on solution architecture with engineering on GCP — shipped working apps (UGC Ad Studio, Batch Editor); scope scalable solutions, negotiate build timelines, root-cause failures pre-release.</li>
-      </ul>
-      <h5>Apps, AI Tooling &amp; Reliability</h5>
-      <ul>
-        <li>Built SEO apps, growth dashboards (GA4 + PostHog + Sentry + Paddle), engineer-facing solutioning apps, a Chrome extension, and a product-design app that lets non-designers produce UI/UX faster.</li>
-        <li>Authored <strong>20+ custom Claude skills</strong> with deploy-ready outputs; published a public Claude skill accepted into the community "awesome Claude skills" repository by the maintainer.</li>
-        <li>Drive scale and reliability — error dashboards, Sentry monitoring, release governance and automated tests; moved Batch Editor processing client-side → server-side; <strong>0 customer complaints</strong> on main generation tools.</li>
-      </ul>
-    </div>
-
-    <div class="job">
-      <div class="job-head">
-        <h3>Product Lead — AI &amp; Analytics Products</h3>
-        <span class="job-org">Deloitte India (within Strategy &amp; Operations tenure)</span>
-        <span class="job-date">2020 — March 2025</span>
-      </div>
-      <h5>No-Code Analytics Product (0→1)</h5>
-      <ul>
-        <li>Designed a no-code analytics product with a built-in RCA engine for network-performance improvement — owned UI/UX, data model, KPIs and RCA rules; business users self-serve data, custom charts and reports.</li>
-        <li>Took the product <strong>0→1 — deployed with a leading auto player</strong> inside a network-profitability program.</li>
-        <li>Led GTM end-to-end — OEM &amp; dealer-group outreach and Deloitte-network selling in <strong>Germany &amp; Japan</strong>; owned demos, client-management pitches, proposals and commercials.</li>
-      </ul>
-      <h5>AI &amp; GenAI Solutions — Auto OEMs</h5>
-      <ul>
-        <li>Led AI &amp; GenAI strategy and solution design for a leading commercial-vehicle OEM to maximize vehicle uptime — stakeholder needs, capability assessment, cross-industry benchmarking.</li>
-        <li>Defined outcomes, user requirements, business impact, analytical approach and UX with data-science, data-engineering and app-dev teams.</li>
-        <li>Specified I/O parameters, workflows and solution architecture — data sources, integrations, storage &amp; processing — on Google Cloud.</li>
-        <li>Business &amp; functional lead for a multi-year <strong>global AI CoE for a large Auto OEM</strong>; designed a techno-functional 'Customer Digital Twin' using ML &amp; GenAI.</li>
-      </ul>
-    </div>
-
-    <div class="job">
-      <div class="job-head">
-        <h3>Strategy &amp; Operations — Director</h3>
-        <span class="job-org">Deloitte India &amp; PwC</span>
-        <span class="job-date">March 2017 — March 2025</span>
-      </div>
-      <ul>
-        <li>Led Last-Mile Mobility strategy, strategic planning and large-scale Customer Experience Transformation for leading Indian OEMs — customer/channel research, innovation frameworks and future journeys; led retail-excellence and CX programs across multiple automotive players.</li>
-        <li>Led a large CX transformation for a leading two-wheeler player — customer research, moments of truth, global benchmarking &amp; SME interviews, and future-state journey design enabled through technology.</li>
-        <li>Led multiple engagements to drive EBITDA improvement across automotive dealerships — funnel diagnostics, implementation and change management.</li>
-        <li>Led strategic planning for a large auto-component manufacturer; designed and deployed retail-excellence and CX-enhancement programs across multiple automotive players.</li>
-        <li>Led business development and client negotiations end-to-end; co-built an Innovation-Council-funded Sales, Marketing &amp; Profitability analytics tool — now a top firm asset; led eminence via articles, interviews and industry events.</li>
-      </ul>
-    </div>
-
-    <div class="job">
-      <div class="job-head">
-        <h3>Strategy &amp; Operations — Senior Consultant</h3>
-        <span class="job-org">KPMG India</span>
-        <span class="job-date">April 2014 — February 2017</span>
-      </div>
-      <ul>
-        <li>Led 4–5 consultants on dealer profitability diagnostics across 40 dealers (200–300 bps improvement potential); deployed a CX &amp; dealer-incentive program for a German automaker; ran manpower cost optimization (~15% reduction) for a large steel manufacturer.</li>
-      </ul>
-    </div>
-
-    <div class="job" style="padding-bottom:8px">
-      <div class="job-head">
-        <h3>Strategy &amp; Operations — Consultant</h3>
-        <span class="job-org">PwC India</span>
-        <span class="job-date">February 2013 — March 2014</span>
-      </div>
-      <ul>
-        <li>Led capacity/throughput enhancement, TPM and PMO projects across Pharma and Paper industries.</li>
-      </ul>
+  <div class="wrap"><div class="impact-strip" aria-label="Selected experience and outcomes">
+    <div class="impact"><strong>15<span>+</span></strong><span>AI tools in the<br>PixelBin portfolio</span></div>
+    <div class="impact"><strong>30<span>%</span></strong><span>Revenue growth with<br>three record months</span></div>
+    <div class="impact"><strong>10<span>+</span></strong><span>Product releases<br>in three months</span></div>
+    <div class="impact"><strong>9</strong><span>Independent AI apps<br>live on AWS</span></div>
+  </div></div>
+  <div class="wrap resume-layout">
+    <aside class="resume-rail"><p class="rail-label">On this page</p><nav aria-label="Résumé contents"><a href="#overview" class="rail-link">Overview</a><a href="#capabilities" class="rail-link">Capabilities</a><a href="#experience" class="rail-link">Experience</a><a href="#independent-work" class="rail-link">Independent work</a><a href="#post-training" class="rail-link">Post-training lab</a><a href="#education" class="rail-link">Education &amp; recognition</a></nav><a class="rail-download" href="assets/Anand_Pareek_Resume.pdf" download="Anand_Pareek_Resume_2026.pdf">Save full CV <span aria-hidden="true">↓</span></a></aside>
+    <div class="resume-content">
+      <section class="resume-section" id="overview" aria-labelledby="overview-heading">
+        <div class="section-heading"><div><p class="eyebrow">The combination</p><h2 id="overview-heading">Commercial ownership.<br>Technical depth.</h2></div><span class="section-index" aria-hidden="true">01</span></div>
+        <p class="section-lede">Six years building AI and analytics products, within a career spanning strategy consulting, enterprise transformation and product leadership. I work from the business decision through the user experience and system design.</p>
+        <div class="summary-grid">
+          <article class="sum-card"><span class="card-number">01 / PRODUCT</span><h3>Set direction.<br>Own the outcome.</h3><p>P&amp;L, product strategy, pricing, roadmap and growth. At PixelBin, repositioned point tools as an AI media-generation platform and aligned teams to per-tool revenue goals.</p></article>
+          <article class="sum-card"><span class="card-number">02 / SOLUTIONS</span><h3>Design the system.<br>Make it useful.</h3><p>Agentic workflows, RAG, evaluations, memory and MCP. Bring model choice, product UX, architecture, cost and reliability into the same conversation.</p></article>
+          <article class="sum-card"><span class="card-number">03 / EXECUTION</span><h3>Build it.<br>Learn from evidence.</h3><p>Independently build and deploy working AI products. Use real implementation, evaluations and post-training experiments to test assumptions and deepen product judgment.</p></article>
+        </div>
+      </section>
+      <section class="resume-section" id="capabilities" aria-labelledby="capabilities-heading">
+        <div class="section-heading"><div><p class="eyebrow">What I work across</p><h2 id="capabilities-heading">Capabilities</h2></div><span class="section-index" aria-hidden="true">02</span></div>
+        <div class="capability-list">
+          <div class="capability-row"><h3>Product &amp; growth</h3><p>P&amp;L ownership · Product strategy &amp; roadmaps · Pricing &amp; monetization · PLG · SEO / GEO · Conversion · Enterprise GTM · PRDs &amp; solution design</p></div>
+          <div class="capability-row"><h3>AI systems</h3><p>Agentic workflows · LangGraph / LangChain · RAG · Evaluations · MCP &amp; tool calling · Prompt &amp; context engineering · Memory architecture · Multimodal pipelines</p></div>
+          <div class="capability-row"><h3>Applied model work</h3><p>SFT · Continued pre-training · LoRA / PEFT · Preference optimization experiments · Evaluation design · Comparing prompting, retrieval and training</p></div>
+          <div class="capability-row"><h3>Build &amp; measure</h3><p>Python · JavaScript · SQL · pandas · GCP / Vertex AI · AWS · PostHog · GA4 · Paddle · Sentry · Funnel &amp; cohort analysis · A/B testing</p></div>
+        </div>
+      </section>
+      <section class="resume-section" id="experience" aria-labelledby="experience-heading">
+        <div class="section-heading"><div><p class="eyebrow">Professional experience</p><h2 id="experience-heading">From strategy to execution</h2></div><span class="section-index" aria-hidden="true">03</span></div>
+        <div class="experience-list">
+          <article class="job job-featured">
+            <div class="job-top"><div class="org-mark">F</div><div><p class="job-org">Fynd · PixelBin</p><h3>Product &amp; Growth Director</h3></div><span class="job-date">Oct 2025 — Present</span></div>
+            <p class="job-intro">P&amp;L, leadership reporting and product roadmap for a suite of 15+ AI media tools, reporting to the Founder. Products include PixelBin, WatermarkRemover.io, Upscale.media and EraseBG.</p>
+            <div class="job-results"><span><b>30%</b> revenue growth</span><span><b>10+</b> releases in 3 months</span><span><b>150+</b> tool pages &amp; blogs</span></div>
+            <div class="job-detail"><h4>Product strategy &amp; commercial ownership</h4><ul><li>Repositioned point tools into a full AI media-generation platform for designers and creators; opened MCP as a new distribution surface.</li><li>Reset strategy, ICP and roadmap against team capacity: <strong>10+ releases in three months versus 2–3 in the prior year</strong>. Delivered highest-ever revenue, with <strong>30% growth and three consecutive record months</strong>, alongside improvement across the funnel.</li><li>Own pricing, power-user conversion, SEO, offers and a B2B sales motion. Drove mobile-app growth through product revamp, ASO, channel alignment and pricing initiatives.</li><li>Align engineering, ML, growth and SEO around per-tool revenue goals; use prompt types, user profiles and model usage to prioritize features.</li></ul></div>
+            <div class="job-detail"><h4>AI product, solutioning &amp; architecture</h4><ul><li>Designed the Creative Agent pipeline and led Marketing Studio solutioning across <strong>agentic workflows, user journeys, evaluations and memory architecture</strong>.</li><li>Led implementation of a <strong>product intelligence agent</strong>, including prompt and context engineering, memory, RAG and evaluations.</li><li>Shape image and video workflows across nanoBanana, Kling, PixVerse and Seedance: model capabilities, I/O parameters, UX and pricing.</li><li>Work with engineering on GCP architecture: batch-size design for the Batch Editor, watermark-removal model evaluation pipelines and <strong>Vertex AI GSU planning</strong>.</li></ul></div>
+            <div class="job-detail"><h4>Tooling &amp; reliability</h4><ul><li>Built SEO apps, growth and error dashboards, engineer-facing solutioning tools, a Chrome extension and a product-design app.</li><li>Authored <strong>20+ custom Claude skills</strong>; a public skill was accepted into the community “awesome Claude skills” repository.</li><li>Drive release governance, automated tests and Sentry monitoring; moved Batch Editor processing from client to server.</li></ul></div>
+          </article>
+          <article class="job">
+            <div class="job-top"><div class="org-mark org-mark-muted">D</div><div><p class="job-org">Deloitte India</p><h3>Product Lead · AI &amp; Analytics</h3></div><span class="job-date">2020 — Mar 2025</span></div>
+            <p class="job-intro">A product and AI solutions focus within the Strategy &amp; Operations tenure below.</p>
+            <ul><li>Designed and took a <strong>no-code analytics product from 0→1</strong> for network performance and profitability. Owned UI/UX, data model, KPIs and root-cause analysis rules; deployed with a leading automotive player.</li><li>Led enterprise GTM across India and the Deloitte network in <strong>Germany and Japan</strong>—outreach, demos, proposals, client conversations and commercials.</li><li>Led AI and GenAI strategy and solution design for a commercial-vehicle OEM’s uptime agenda, from stakeholder needs to workflows, architecture and GCP integrations.</li><li>Business and functional lead for a multi-year global AI CoE at a large automotive OEM; designed a <strong>Customer Digital Twin</strong> using ML and GenAI.</li></ul>
+          </article>
+          <article class="job">
+            <div class="job-top"><div class="org-mark org-mark-muted">D/P</div><div><p class="job-org">Deloitte India &amp; PwC</p><h3>Director · Strategy &amp; Operations</h3></div><span class="job-date">Mar 2017 — Mar 2025</span></div>
+            <ul><li>Led strategic planning, last-mile mobility strategy and large-scale <strong>customer experience transformation</strong> for automotive companies—from customer research and global benchmarks to technology-enabled journeys.</li><li>Led dealership EBITDA-improvement programs spanning funnel diagnostics, implementation and change management; designed retail-excellence and CX programs.</li><li>Owned business development and client negotiations. Co-built an Innovation-Council-funded sales, marketing and profitability analytics tool that became a leading firm asset.</li></ul>
+          </article>
+          <article class="job job-compact">
+            <div class="job-top"><div class="org-mark org-mark-muted">K</div><div><p class="job-org">KPMG India</p><h3>Senior Consultant · Strategy &amp; Operations</h3></div><span class="job-date">Apr 2014 — Feb 2017</span></div>
+            <p>Led teams of 4–5 on profitability diagnostics across 40 dealers, identifying 200–300 bps improvement potential. Delivered CX and dealer-incentive programs and manpower-cost optimization of approximately 15% for a steel manufacturer.</p>
+          </article>
+          <article class="job job-compact">
+            <div class="job-top"><div class="org-mark org-mark-muted">P</div><div><p class="job-org">PwC India</p><h3>Consultant · Strategy &amp; Operations</h3></div><span class="job-date">Feb 2013 — Mar 2014</span></div>
+            <p>Led capacity and throughput improvement, total productive maintenance and PMO projects across pharmaceutical and paper businesses.</p>
+          </article>
+        </div>
+      </section>
+      <section class="resume-section" id="independent-work" aria-labelledby="independent-heading">
+        <div class="section-heading"><div><p class="eyebrow">Independent practice · 2026</p><h2 id="independent-heading">The work behind the thinking</h2></div><span class="section-index" aria-hidden="true">04</span></div>
+        <p class="section-lede">Designed, built and deployed end to end. These products let me work through real trade-offs in model quality, orchestration, UX, latency, cost and reliability.</p>
+        <div class="build-grid">
+          <a class="build-card" href="https://agentic.3-6-183-210.sslip.io" target="_blank" rel="noopener"><div class="build-category">Learning &amp; knowledge <span aria-hidden="true">↗</span></div><h3>Agentic Learning Studio</h3><p>Multi-agent learning experiences with grounded content, interactive lessons, validation rules and evaluations.</p><span class="build-meta">LangGraph · RAG · Interactive content</span></a>
+          <a class="build-card" href="https://demo-studio.3-6-183-210.sslip.io" target="_blank" rel="noopener"><div class="build-category">Multimodal &amp; voice <span aria-hidden="true">↗</span></div><h3>Demo Studio</h3><p>Source-grounded product demos combining language, vision and voice—from script and narration to live questions.</p><span class="build-meta">LLM / VLM · STT / TTS · LiveKit</span></a>
+          <a class="build-card" href="https://blindspot.3-6-183-210.sslip.io" target="_blank" rel="noopener"><div class="build-category">Evaluation &amp; decisions <span aria-hidden="true">↗</span></div><h3>Blindspot</h3><p>Agent traces, quality evidence and cost visibility, with evaluation gates before proposed model-routing changes.</p><span class="build-meta">Observability · Evals · Routing</span></a>
+          <a class="build-card" href="https://gstpilot.3-6-183-210.sslip.io" target="_blank" rel="noopener"><div class="build-category">Grounded domain workflows <span aria-hidden="true">↗</span></div><h3>GSTPilot</h3><p>Source-grounded questions and structured extraction, with transparent deterministic filing calculations.</p><span class="build-meta">RAG · Extraction · Rules</span></a>
+        </div>
+        <a class="text-link" href="#projects">Explore all nine live apps and more projects <span aria-hidden="true">→</span></a>
+      </section>
+      <section class="resume-section" id="post-training" aria-labelledby="post-training-heading">
+        <div class="section-heading"><div><p class="eyebrow">Applied learning, measured</p><h2 id="post-training-heading">When should you fine-tune?</h2></div><span class="section-index" aria-hidden="true">05</span></div>
+        <div class="lab-intro"><span class="lab-badge"><span class="small-dot"></span> Post-Training Lab</span><h3>Test the choice between better context, retrieval and changing the model.</h3><p>Hands-on model adaptation across Qwen 0.5B and 1.7B models: continued pre-training, LoRA supervised fine-tuning, preference optimization experiments, and retrieval with reranking. The aim is practical judgment about answer quality, unsupported claims and when a model should decline to answer.</p><div class="lab-path" aria-label="Methods explored"><span>Prompting</span><span>CPT</span><span>LoRA SFT</span><span>DPO experiments</span><span>RAG + reranking</span></div></div>
+        <div class="lab-evidence"><h3>A measured result from the 1.7B experiment</h3><div class="lab-result-grid"><div class="lab-result"><strong>77.5% <span class="result-arrow" aria-hidden="true">→</span> 93.8%</strong><span>Appropriate refusal on 80 unanswerable questions</span></div><div class="lab-result"><strong>60 / 60</strong><span>Correct factual answers retained with reranked RAG</span></div></div><p class="lab-result-note">Compared the base Qwen3-1.7B model with LoRA SFT v2 under the same reranked-RAG condition. This comparison sits within <strong>1,680 saved responses across 24 evaluation cohorts</strong>. Results use a semantic judge on a <strong>140-question fictional development set</strong>; they are not held-out or production results.</p><div class="lab-methods"><div><h4>Quality needs a testable definition</h4><p>Evaluate answerability and refusal separately; compare prompt-only, retrieved, oracle and missing-evidence conditions. Keep data, model and prompt records traceable.</p></div><div><h4>A gate can be the right outcome</h4><p>Completed an earlier 0.5B DPO learning experiment. Held back the newer 1.7B DPO run because its preference-data gate was not met.</p></div></div></div>
+        <a class="text-link" href="https://github.com/APareek89/Post-Training-Lab" target="_blank" rel="noopener">Explore the public 0.5B notebook lab <span aria-hidden="true">↗</span></a><p class="lab-footnote">The public repository covers the 0.5B learning lab. The newer 1.7B results above come from separate local experiments.</p>
+      </section>
+      <section class="resume-section" id="education" aria-labelledby="education-heading">
+        <div class="section-heading"><div><p class="eyebrow">Foundations &amp; recognition</p><h2 id="education-heading">Learning that stays current</h2></div><span class="section-index" aria-hidden="true">06</span></div>
+        <div class="education-card"><span class="education-mark" aria-hidden="true">IIT</span><div><h3>Indian Institute of Technology Bombay</h3><p>B.Tech · Aerospace Engineering <span>2007–2011</span></p><p class="education-detail">Techfest leadership: team of 22, ₹10M budget and 75,000 footfall. Ran the International Robotics Challenge with AIT Thailand.</p></div></div>
+        <div class="cert-grid">
+          <article class="cert-card"><div class="cert-top"><span class="cert-label">AWS</span><span>Aug 2026</span></div><h3>Solutions Architect<br>Associate</h3><p>Amazon Web Services<br>Valid through August 2029</p></article>
+          <article class="cert-card"><div class="cert-top"><span class="cert-label">ANTHROPIC</span><span>Aug 2026</span></div><h3>Claude Certified Architect<br>Foundations</h3><p>Agentic architecture, MCP &amp; Claude Code<br>Score: 803 · Pass: 720</p></article>
+        </div>
+        <div class="course-list"><h3>Further learning</h3><p><strong>Machine Learning Specialization</strong> · Stanford Online &amp; DeepLearning.AI · 2025</p><p><strong>Generative AI with Large Language Models</strong> · AWS &amp; DeepLearning.AI · 2025</p><p><strong>IBM Data Science courses</strong> · Python, data visualization and applied project work · 2023</p><p><strong>AI solution design, data-driven product management &amp; text-to-image generation</strong> · LinkedIn Learning · 2025</p></div>
+        <div class="recognition"><div><p class="eyebrow">Recognition</p><h3>For delivery and leadership</h3></div><ul><li><strong>Deloitte:</strong> President’s Bonus twice and Dot of Fame three times; nominated for an accelerated growth program including strategic thinking with Tuck Business School.</li><li><strong>KPMG &amp; PwC:</strong> Above and Beyond awards; KPMG Super Team award for project execution.</li></ul></div>
+      </section>
+      <div class="dl-band"><div><p class="eyebrow">The full story, in two pages</p><h2>Take the résumé with you.</h2><p>Experience, education and certifications in the latest CV.</p></div><a class="button button-primary" href="assets/Anand_Pareek_Resume.pdf" download="Anand_Pareek_Resume_2026.pdf">Download CV <span aria-hidden="true">↓</span></a></div>
     </div>
   </div>
-
-  <h2 class="sec">Education, Certifications &amp; Awards</h2>
-  <div class="rule"></div>
-  <div class="two-col">
-    <div class="info-card">
-      <h3>Education &amp; Certifications</h3>
-      <ul>
-        <li><strong>B.Tech, Aerospace Engineering — IIT Bombay</strong> (2007–2011, CGPA 7/10). Core team, Techfest — Asia's largest intercollege science &amp; technology festival: conceptualized &amp; executed events with a team of 22, INR 10M budget and 75,000 footfall; ran the International Robotics Challenge with AIT Thailand.</li>
-        <li><strong>Certifications:</strong> IBM Data Science; Stanford Online — Machine Learning.</li>
-        <li><strong>Scheduled Aug 2026:</strong> Claude Certified Architect (CCA-F); AWS Solutions Architect — Associate.</li>
-      </ul>
-    </div>
-    <div class="info-card">
-      <h3>Awards</h3>
-      <ul>
-        <li><strong>Deloitte:</strong> highest firm award 'President's Bonus' (twice) and 'Dot of Fame' (three times); nominated for an accelerated growth program incl. a strategic-thinking course with Tuck Business School.</li>
-        <li><strong>'Above and Beyond'</strong> (KPMG &amp; PwC) and <strong>'Super Team'</strong> (KPMG) awards for excellence in project execution.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="dl-band">
-    <p><b>Prefer a PDF?</b> The full CV — every engagement, award and certification — ready to save or share.</p>
-    <a class="btn-light" href="assets/Anand_Pareek_Resume.pdf" download>Download CV (PDF) ↓</a>
-  </div>
-
 </section>
+<div class="wrap project-wrap">
 
-<!-- ============================ PROJECTS ============================ -->
-<section class="panel" id="projects" role="tabpanel" aria-labelledby="tab-projects">
+<section class="panel" id="projects" role="tabpanel" aria-labelledby="tab-projects" tabindex="0" hidden>
 
   <div class="project-intro">
-    <p class="eyebrow">Built end to end</p>
-    <h2 class="sec">Ideas you can explore.</h2>
-    <p class="sec-sub">Nine AI products, now running on AWS. Each puts a different workflow into your hands—from learning and research to creative production, evaluation and decision support.</p>
-    <div class="portfolio-facts" aria-label="Portfolio details"><span>9 live AWS apps</span><span>Real product screenshots</span><span>Prepared examples to get started</span></div>
+    <p class="eyebrow"><span class="eyebrow-line"></span> Independent products</p>
+    <h1 class="project-title">Built to work.<br><span>Ready to explore.</span></h1>
+    <p class="sec-sub">Nine live AI products, designed, built and deployed end to end. Explore the decisions behind each workflow—from learning and research to creative production, evaluation and decision support.</p>
+    <div class="portfolio-facts" aria-label="Portfolio details"><span>9 live AWS apps</span><span>Designed &amp; built independently</span><span>Examples ready to explore</span></div>
   </div>
 
   <div class="proj-grid aws-grid">
@@ -578,7 +298,7 @@ footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
 
   </div>
 
-  <h2 class="sec">Other projects</h2>
+  <div class="section-heading"><div><p class="eyebrow">Further explorations</p><h2 class="sec">More products. Different problems.</h2></div></div>
   <p class="sec-sub">More product experiments and client work, with their original live demos.</p>
   <div class="proj-grid other-projects">
 
@@ -586,8 +306,8 @@ footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
       <div class="shot"><img src="assets/shots/creative-qc-agent.png" alt="Framewise — agent workflow architecture view" loading="lazy"><span class="live-dot">LIVE</span></div>
       <div class="proj-body">
         <h3>Framewise</h3>
-        <div class="role">Self-QCing AI Image Production with a Human Calibration Gate</div>
-        <p>Approve five calibration examples once; Claude synthesizes the recipe and a bounded LangGraph loop drives FLUX.2 to generate, revise, accept or escalate every remaining asset — VLM evidence is cross-checked against source pixels, and deterministic code is the only pass/fail and spend authority. Defense-in-depth engineering: per-asset and per-batch cost caps, model fallback with a circuit breaker, BullMQ retries with a dead-letter queue, durable Postgres state — validated by a real production run that stopped itself correctly at its spend cap.</p>
+        <div class="role">Image production with a human calibration gate</div>
+        <p>An AI image-production workflow with a human calibration gate. A bounded LangGraph loop generates, checks and revises assets; deterministic rules enforce quality decisions and spend caps. Built with durable job state, retries and escalation when automation should stop.</p>
         <div class="tags"><span class="tag">LangGraph</span><span class="tag">LLM-as-judge</span><span class="tag">fal.ai FLUX.2</span><span class="tag">BullMQ + Postgres</span></div>
         <div class="proj-links"><a class="plink" href="https://creative-qc-agent.vercel.app" target="_blank" rel="noopener">Visit live <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
       </div>
@@ -597,8 +317,8 @@ footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
       <div class="shot"><img src="assets/shots/prism-v1.png" alt="Prism — Claude Code ROI index screenshot" loading="lazy"><span class="live-dot">LIVE</span></div>
       <div class="proj-body">
         <h3>Prism</h3>
-        <div class="role">Deterministic ROI Index for Claude Code Engineering Spend</div>
-        <p>Scores the ROI of Claude Code spend across an engineering org: an LLM-free engine distills GitHub PRs, Claude Code sessions and Sentry signals into two 0–100 indexes — outcomes and practices — via a within-person linkage engine and confidence-laddered AI-to-PR attribution. A hard determinism boundary keeps LLMs out of the math; on top sits a grounded coaching agent whose every number is validated against an assembled facts block before it reaches the user. Next.js 15 + Supabase monorepo with a versioned per-KPI weight editor, daily Inngest pipeline, GitHub App connector and 288 tests.</p>
+        <div class="role">Understand the outcomes of AI coding spend</div>
+        <p>Connect GitHub, Claude Code and Sentry signals to understand AI-assisted engineering outcomes. A deterministic scoring engine keeps the math separate from a grounded coaching agent, with editable KPI weights and daily reporting.</p>
         <div class="tags"><span class="tag">Deterministic scoring</span><span class="tag">Next.js 15 + Supabase</span><span class="tag">Anthropic SDK</span><span class="tag">Inngest</span></div>
         <div class="proj-links"><a class="plink" href="https://prism-v1-web.vercel.app" target="_blank" rel="noopener">Visit live <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
       </div>
@@ -608,8 +328,8 @@ footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
       <div class="shot"><img src="assets/shots/jhalak-p178.png" alt="Jhalak — AI website builder for Indian MSMEs" loading="lazy"><span class="live-dot">LIVE</span></div>
       <div class="proj-body">
         <h3>Jhalak</h3>
-        <div class="role">AI Website, Catalogue &amp; Reels Engine for Indian MSMEs</div>
-        <p>A "Shopify super-light" for relationship-led small businesses: phone photos plus three Hinglish voice-answered questions become a live multi-tenant website, AI-polished catalogue and Instagram reels — enquiry-first via WhatsApp, no checkout friction. Claude writes the copy and vision-based product descriptions; an import-and-enhance pipeline rebuilds an owner's old site through an SSRF-guarded fetcher with budget-capped fal.ai imagery. The Studio editor is a tool-calling agent with click-to-select visual editing, hardened by an adversarial FMEA pass.</p>
+        <div class="role">A digital storefront from photos and conversation</div>
+        <p>Turn phone photos and a short Hinglish voice brief into a website, product catalogue and social content for small businesses. A conversational editor supports visual changes, with enquiries routed to WhatsApp.</p>
         <div class="tags"><span class="tag">Multi-tenant SaaS</span><span class="tag">Claude vision</span><span class="tag">fal.ai</span><span class="tag">Next.js 16</span></div>
         <div class="proj-links"><a class="plink" href="https://jhalak-tau.vercel.app" target="_blank" rel="noopener">Visit live <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
       </div>
@@ -619,8 +339,8 @@ footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
       <div class="shot"><img src="assets/shots/tejas-corporation-website.png" alt="Tejas Corporation website screenshot" loading="lazy"><span class="live-dot">LIVE</span></div>
       <div class="proj-body">
         <h3>Tejas Corporation</h3>
-        <div class="role">Zero-Backend Lead-Gen Site for a PET Machinery Manufacturer</div>
-        <p>A production lead-gen website for a Jaipur manufacturer of preform conveyor systems for PET bottle lines — React + Vite SPA on Vercel's Hobby tier, quote requests straight to the owner's inbox via serverless forms, and a password-gated admin panel with client-side image compression so a non-technical owner can add products themselves. Per-page SEO meta plus a build-time llms.txt make the catalog readable to search engines and AI crawlers alike.</p>
+        <div class="role">A maintainable catalogue for an industrial business</div>
+        <p>A product catalogue and enquiry website for a PET machinery manufacturer. Built for a non-technical owner to maintain, with an admin interface, client-side image compression, search metadata and a direct enquiry flow.</p>
         <div class="tags"><span class="tag">React + Vite</span><span class="tag">Zero hosting cost</span><span class="tag">llms.txt GEO</span><span class="tag">Client work</span></div>
         <div class="proj-links"><a class="plink" href="https://tejas-corporation-website.vercel.app" target="_blank" rel="noopener">Visit live <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
       </div>
@@ -628,75 +348,27 @@ footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
 
   </div>
 
-  <h2 class="sec">Open Source</h2>
-  <div class="rule"></div>
-  <div class="oss-grid">
-    <div class="oss">
-      <h3>agentic-learning-skill <span class="star">★ 4</span></h3>
-      <p>Turn any topic into a self-contained interactive HTML lesson, or a brief into an installable Agent Skill — runs on your own Claude, no server. Accepted into the community "awesome Claude skills" repository by the maintainer.</p>
-      <a class="plink" href="https://github.com/APareek89/agentic-learning-skill" target="_blank" rel="noopener">View on GitHub <svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-    </div>
-    <div class="oss">
-      <h3>power-coding <span class="star">★ 5</span></h3>
-      <p>A mindful-coding OS for any LLM coding agent (Claude Code, Codex, Gemini CLI) — session handoffs, eval loops, vibe-debugging diagrams, FMEA failure scans and a pre-commit secret gate. Plain markdown, no daemons.</p>
-      <a class="plink" href="https://github.com/APareek89/power-coding" target="_blank" rel="noopener">View on GitHub <svg viewBox="0 0 24 24" style="width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-    </div>
-  </div>
+  <section class="tools-section" aria-labelledby="tools-heading"><div class="section-heading"><div><p class="eyebrow">From my GitHub</p><h2 id="tools-heading">Tools and experiments</h2></div><a class="text-link" href="https://github.com/APareek89" target="_blank" rel="noopener">View GitHub <span aria-hidden="true">↗</span></a></div><p class="sec-sub">Reusable tools for more reliable AI work, and hands-on labs for understanding how models learn.</p><div class="tools-grid"><article class="tool-card"><span class="tool-category">Portable coding workflow</span><h3>Power Coding</h3><p>A portable workflow for AI-assisted software delivery: clear briefs, session handoffs, evaluation loops, failure reviews and secret checks.</p><a class="plink" href="https://github.com/APareek89/power-coding" target="_blank" rel="noopener">Explore repository <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Power Coding</span></a></article><article class="tool-card"><span class="tool-category">Local context tool</span><h3>Keel</h3><p>Local memory for AI work: a Markdown knowledge base and entity graph that carry decisions, preferences and constraints across sessions.</p><a class="plink" href="https://github.com/APareek89/keel" target="_blank" rel="noopener">Explore repository <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Keel</span></a></article><article class="tool-card"><span class="tool-category">Notebook experiments</span><h3>Post-Training Lab</h3><p>An evaluation-first notebook lab comparing prompting, continued pre-training, fine-tuning, preference optimization and retrieval on a small language model.</p><a class="plink" href="https://github.com/APareek89/Post-Training-Lab" target="_blank" rel="noopener">Explore repository <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Post-Training Lab</span></a></article><article class="tool-card"><span class="tool-category">Interactive teaching lab</span><h3>LLM Anatomy</h3><p>Explore attention, predictions, gradients and weight updates in a 3D lab powered by small trainable teaching models.</p><a class="plink" href="https://github.com/APareek89/llm-anatomy" target="_blank" rel="noopener">Explore repository <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: LLM Anatomy</span></a></article><article class="tool-card"><span class="tool-category">Installable learning skill</span><h3>Agentic Learning Skill</h3><p>Turn a topic into an interactive HTML lesson with a mental map, worked examples and a browser-based knowledge check.</p><a class="plink" href="https://github.com/APareek89/agentic-learning-skill" target="_blank" rel="noopener">Explore repository <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Agentic Learning Skill</span></a></article><article class="tool-card"><span class="tool-category">Review skill</span><h3>Sharpen</h3><p>Reusable expert-review personas that challenge assumptions and revise an AI draft before delivery.</p><a class="plink" href="https://github.com/APareek89/sharpen" target="_blank" rel="noopener">Explore repository <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Sharpen</span></a></article></div></section>
 
   <h2 class="sec">At PixelBin (Fynd)</h2>
   <p class="sec-sub">Products and internal tooling designed and shipped with engineering, ML and growth teams — for a suite of 15+ tools spanning PixelBin, WatermarkRemover.io, Upscale.media and EraseBG.</p>
   <div class="pb-band">
     <h3>Running an AI media-generation suite, hands-on</h3>
-    <p class="pb-sub">P&amp;L owner and product lead across 15+ tools — these are the flagship builds from the last three quarters.</p>
+    <p class="pb-sub">P&amp;L owner and product lead across 15+ tools — product strategy, solution architecture and growth, working with engineering and ML teams.</p>
     <div class="pb-grid">
-      <div class="pb-item"><b>Creative Agent</b><span>Designed the end-to-end agentic pipeline for autonomous ad-creative generation — brief → plan → generate → judge → deliver.</span></div>
-      <div class="pb-item"><b>Marketing Studio</b><span>Led solutioning for an end-to-end studio that produces agency-grade marketing creative across formats.</span></div>
-      <div class="pb-item"><b>UGC Ad Studio &amp; Batch Editor</b><span>Shipped working apps with engineering on GCP; moved Batch Editor processing client-side → server-side.</span></div>
+      <div class="pb-item"><b>Creative Agent</b><span>Designed the end-to-end agentic flow, from the creative brief through generation and quality evaluation.</span></div>
+      <div class="pb-item"><b>Marketing Studio</b><span>Led product solutioning across user journeys, agentic workflows, evaluations and memory architecture.</span></div>
+      <div class="pb-item"><b>Product intelligence agent</b><span>Led implementation across prompt and context engineering, memory architecture, RAG and evaluations.</span></div>
       <div class="pb-item"><b>Image &amp; Video Gen Workflows</b><span>Model selection, generation workflows, I/O parameters, UX and pricing across nanoBanana, Kling, PixVerse, Seedance.</span></div>
       <div class="pb-item"><b>Growth &amp; Error Dashboards</b><span>GA4 + PostHog + Sentry + Paddle instrumentation — per-tool funnels, error triage and revenue reporting for leadership.</span></div>
-      <div class="pb-item"><b>MCP as a Distribution Surface</b><span>Opened PixelBin's tools to AI agents via MCP — a new acquisition channel beyond the browser.</span></div>
+      <div class="pb-item"><b>GCP architecture &amp; MCP</b><span>Vertex AI GSU planning, batch-processing design and model-performance evaluation; MCP as a new distribution surface.</span></div>
     </div>
   </div>
 
 </section>
+
+</div>
 </main>
-
-<footer>
-  <div class="wrap foot">
-    <div>
-      <div class="fbrand">Anand Pareek</div>
-      <p>AI Product Leader &amp; Builder — Mumbai, India</p>
-    </div>
-    <div class="foot-links">
-      <a href="mailto:anandp.pareek6@gmail.com">Email</a>
-      <a href="https://github.com/APareek89" target="_blank" rel="noopener">GitHub</a>
-      <a href="assets/Anand_Pareek_Resume.pdf" download>CV (PDF)</a>
-    </div>
-  </div>
-</footer>
-
-<script>
-(function(){
-  var buttons=document.querySelectorAll('.tab-btn');
-  var panels=document.querySelectorAll('section.panel');
-  function show(id,push){
-    panels.forEach(function(p){p.classList.toggle('active',p.id===id)});
-    buttons.forEach(function(b){
-      var on=b.dataset.panel===id;
-      b.classList.toggle('active',on);
-      b.setAttribute('aria-selected',on?'true':'false');
-    });
-    if(push)history.replaceState(null,'','#'+id);
-    window.scrollTo({top:0,behavior:'smooth'});
-  }
-  buttons.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.panel,true)})});
-  function fromHash(){
-    var h=location.hash.replace('#','');
-    if(h==='projects'||h==='resume')show(h,false);
-  }
-  window.addEventListener('hashchange',fromHash);
-  fromHash();
-})();
-</script>
+<footer><div class="wrap foot"><div><a class="fbrand" href="#resume">Anand Pareek<span>.</span></a><p>AI product &amp; growth. Hands-on by design.</p></div><div class="foot-links"><a href="mailto:anandp.pareek6@gmail.com">Email <span aria-hidden="true">↗</span></a><a href="tel:+917738525550">Phone</a><a href="https://github.com/APareek89" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a><a href="assets/Anand_Pareek_Resume.pdf" download="Anand_Pareek_Resume_2026.pdf">CV (PDF) <span aria-hidden="true">↓</span></a></div></div><div class="wrap footer-note">Mumbai, India <span>Product leadership · AI solutions · Independent builds</span></div></footer>
 </body>
 </html>
