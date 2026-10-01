@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Anand Pareek — AI Product Leader &amp; Builder</title>
-<meta name="description" content="Product & Growth Director at Fynd (PixelBin). 14 years across strategy consulting and product — the last 6 building AI & analytics products. Agentic pipelines, RAG, evals and MCP in production. 10 AI products shipped solo.">
+<meta name="description" content="Product & Growth Director at Fynd (PixelBin). 14 years across strategy consulting and product — the last 6 building AI & analytics products. Agentic pipelines, RAG, evals and MCP in production. Nine live AI apps on AWS, plus other independent projects.">
 <meta property="og:title" content="Anand Pareek — AI Product Leader & Builder">
 <meta property="og:description" content="P&L owner of Fynd's AI media-generation suite. Builds production AI products end-to-end — agentic pipelines, RAG, evals, MCP servers.">
 <meta property="og:type" content="website">
@@ -154,6 +154,39 @@ h2.sec{font-family:var(--serif);font-weight:500;font-size:1.9rem;margin:56px 0 8
 .pb-item b{display:block;font-size:.95rem;color:#fff;margin-bottom:5px}
 .pb-item span{font-size:.85rem;color:#9fb3b0;line-height:1.5;display:block}
 
+
+/* AWS gallery: screenshots are real app captures, presented without cropping. */
+.project-intro{padding:38px 0 32px;max-width:840px}
+.project-intro .eyebrow{margin-bottom:10px}
+.project-intro .sec{font-size:clamp(2rem,4vw,3.1rem);line-height:1.15;margin:0 0 18px}
+.project-intro .sec-sub{font-size:1.02rem;line-height:1.75;margin-bottom:22px}
+.portfolio-facts{display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--muted);font-size:.8rem}
+.portfolio-facts span{display:flex;align-items:center;gap:7px}
+.portfolio-facts span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent)}
+.aws-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.aws-project{min-width:0}
+.aws-preview{display:grid;place-items:center;aspect-ratio:16/10;padding:18px;background:#edf1ed;border-bottom:1px solid var(--line);overflow:hidden;text-decoration:none}
+.aws-preview:hover{text-decoration:none}
+.preview-window{width:100%;min-width:0;background:#fff;border:1px solid #d9dfd9;border-radius:9px;overflow:hidden;box-shadow:0 8px 24px rgba(20,32,31,.09)}
+.preview-bar{height:28px;display:flex;align-items:center;gap:8px;padding:0 11px;background:#f7f8f6;border-bottom:1px solid #e5e9e3;color:#696f69;font-size:9px;line-height:1;white-space:nowrap}
+.window-dots{display:flex;gap:4px;margin-right:3px}.window-dots i{width:5px;height:5px;background:#c7ccc5;border-radius:50%}
+.aws-live{margin-left:auto;color:#176140;font-weight:600;display:flex;align-items:center;gap:4px}
+.aws-live::before{content:"";width:4px;height:4px;border-radius:50%;background:#2b9164}
+.preview-image{aspect-ratio:16/10;display:grid;place-items:center;background:#f8f9f7}
+.preview-image img{width:100%;height:100%;display:block;object-fit:contain;object-position:center}
+.aws-project .proj-body{padding:25px 26px 26px}
+.aws-project .role{text-transform:none;letter-spacing:0;font-size:.9rem;line-height:1.5;font-weight:600;margin:8px 0 12px}
+.aws-project .proj-body p{font-size:.91rem;line-height:1.75}
+.aws-project .tags{margin-top:20px;gap:6px}
+.aws-project .tag{font-size:.71rem;padding:4px 10px}
+.live-link{background:var(--dark);color:#fff;border:1px solid var(--dark);border-radius:999px;padding:9px 16px;font-size:.82rem}
+.live-link:hover{background:var(--accent-ink);border-color:var(--accent-ink);text-decoration:none}
+.aws-preview:focus-visible,.live-link:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:920px){.aws-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:480px){.aws-preview{padding:12px}.aws-project .proj-body{padding:22px}.project-intro{padding-top:26px}.portfolio-facts{gap:8px 14px;font-size:.76rem}}
+@media(prefers-reduced-motion:reduce){.proj{transition:none}.proj:hover{transform:none}}
+
 /* ---------- footer ---------- */
 footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
 .foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:center}
@@ -188,7 +221,7 @@ footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
 <div class="wrap hero">
   <div class="eyebrow">AI Product Leader · Hands-on Builder · Mumbai, India</div>
   <h1 class="name">Anand <em>Pareek</em></h1>
-  <p class="lede">I run <strong>PixelBin — Fynd's AI media-generation suite of 15+ tools</strong> — as P&amp;L owner, reporting to the founder. And I build production AI products end-to-end myself: agentic pipelines, RAG, evals and MCP servers — eight shipped solo and running on Vercel, alongside production AI architecture on GCP at PixelBin. Fourteen years across strategy consulting and product — the last six building AI &amp; analytics products — taught me both how businesses buy and how to build what they buy.</p>
+  <p class="lede">I run <strong>PixelBin — Fynd's AI media-generation suite of 15+ tools</strong> — as P&amp;L owner, reporting to the founder. And I build production AI products end-to-end myself: agentic pipelines, RAG, evals and MCP servers — nine live apps on AWS, alongside other independent projects. At PixelBin, I also work on production AI architecture on GCP. Fourteen years across strategy consulting and product — the last six building AI &amp; analytics products — taught me both how businesses buy and how to build what they buy.</p>
   <div class="contact-row">
     <a class="chip" href="mailto:anandp.pareek6@gmail.com"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z" opacity="0"/><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>anandp.pareek6@gmail.com</a>
     <a class="chip" href="tel:+917738525550"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+91 77385 25550</a>
@@ -206,7 +239,7 @@ footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
     <div class="stat"><b>14 yrs</b><span>Across strategy consulting &amp; product — Deloitte, PwC, KPMG, Fynd</span></div>
     <div class="stat"><b>6 yrs</b><span>Of those building AI &amp; analytics products, 0→1 to P&amp;L</span></div>
     <div class="stat"><b>15+</b><span>AI tools owned in the PixelBin suite</span></div>
-    <div class="stat"><b>10</b><span>AI products built solo — on Vercel &amp; GitHub</span></div>
+    <div class="stat"><b>9</b><span>Live AI apps on AWS, plus other projects</span></div>
   </div>
 
   <div class="duo">
@@ -390,32 +423,164 @@ footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
 <!-- ============================ PROJECTS ============================ -->
 <section class="panel" id="projects" role="tabpanel" aria-labelledby="tab-projects">
 
-  <h2 class="sec" style="margin-top:36px">Products I've Built</h2>
-  <p class="sec-sub">Designed, architected, built and deployed end-to-end — solo, with AI-first tooling. Real, running products on Vercel: agentic backends, eval loops, MCP servers, RAG pipelines and the growth instrumentation around them.</p>
+  <div class="project-intro">
+    <p class="eyebrow">Built end to end</p>
+    <h2 class="sec">Ideas you can explore.</h2>
+    <p class="sec-sub">Nine AI products, now running on AWS. Each puts a different workflow into your hands—from learning and research to creative production, evaluation and decision support.</p>
+    <div class="portfolio-facts" aria-label="Portfolio details"><span>9 live AWS apps</span><span>Real product screenshots</span><span>Prepared examples to get started</span></div>
+  </div>
 
-  <div class="proj-grid">
+  <div class="proj-grid aws-grid">
 
-    <div class="proj">
-      <div class="shot"><img src="assets/shots/agentic-learning-studio.png" alt="Agentic Learning Studio — interactive mental-map lesson view" loading="lazy"><span class="live-dot">LIVE</span></div>
+    <article class="proj aws-project" id="project-agentic-learning-studio">
+      <a class="aws-preview" href="https://agentic.3-6-183-210.sslip.io" target="_blank" rel="noopener" aria-label="Open Agentic Learning Studio">
+        <div class="preview-window">
+          <div class="preview-bar" aria-hidden="true"><span class="window-dots"><i></i><i></i><i></i></span><span>Agentic Learning Studio</span><span class="aws-live">Live</span></div>
+          <div class="preview-image"><img src="assets/shots/aws-agentic-learning-studio.png" alt="Agentic Learning Studio — An interactive lesson and learning workspace" loading="lazy" decoding="async" width="1280" height="800"></div>
+        </div>
+      </a>
       <div class="proj-body">
         <h3>Agentic Learning Studio</h3>
-        <div class="role">Multi-Agent RAG Engine for Interactive AI Lessons</div>
-        <p>Replaces video courses with zoomable "mental map" lessons on agentic AI — 146 free interactive lessons and counting — generated by a LangGraph pipeline (profiler → retriever → architect → composer) over tiered Claude models. The model emits only Zod-validated blueprint JSON while a deterministic renderer produces all HTML, grounded in a Supabase pgvector store with hybrid retrieval and rank fusion. Runs as a real business: credit metering, Lemon Squeezy checkout with HMAC-verified webhooks, Langfuse tracing and self-healing lesson builds.</p>
-        <div class="tags"><span class="tag">LangGraph</span><span class="tag">pgvector RAG</span><span class="tag">Tiered Claude models</span><span class="tag">Langfuse</span></div>
-        <div class="proj-links"><a class="plink" href="https://agentic-learning-studio.vercel.app" target="_blank" rel="noopener">Visit live <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
+        <div class="role">Learn by exploring, then doing</div>
+        <p>Interactive lessons, quizzes and hands-on notebooks turn complex AI topics into something you can explore. Start with a prepared lesson, or use your own material to build a learning path.</p>
+        <div class="tags"><span class="tag">Interactive learning</span><span class="tag">RAG</span><span class="tag">LangGraph</span></div>
+        <div class="proj-links"><a class="plink live-link" href="https://agentic.3-6-183-210.sslip.io" target="_blank" rel="noopener">Explore app <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Agentic Learning Studio</span></a></div>
       </div>
-    </div>
+    </article>
 
-    <div class="proj">
-      <div class="shot"><img src="assets/shots/geo-radar-mcp.png" alt="GetCited — AI visibility platform screenshot" loading="lazy"><span class="live-dot">LIVE</span></div>
+    <article class="proj aws-project" id="project-demo-studio">
+      <a class="aws-preview" href="https://demo-studio.3-6-183-210.sslip.io" target="_blank" rel="noopener" aria-label="Open Demo Studio">
+        <div class="preview-window">
+          <div class="preview-bar" aria-hidden="true"><span class="window-dots"><i></i><i></i><i></i></span><span>Demo Studio</span><span class="aws-live">Live</span></div>
+          <div class="preview-image"><img src="assets/shots/aws-demo-studio.png" alt="Demo Studio — The BMW product gallery with a prepared guided tour" loading="lazy" decoding="async" width="1280" height="800"></div>
+        </div>
+      </a>
+      <div class="proj-body">
+        <h3>Demo Studio</h3>
+        <div class="role">From source material to a guided product demo</div>
+        <p>Build narrated product tours from source documents and images. Visitors can explore the gallery, ask grounded questions and save a recap; the prepared BMW tour demonstrates the experience.</p>
+        <div class="tags"><span class="tag">Narrated demos</span><span class="tag">Source-grounded Q&amp;A</span><span class="tag">Voice workflows</span></div>
+        <div class="proj-links"><a class="plink live-link" href="https://demo-studio.3-6-183-210.sslip.io" target="_blank" rel="noopener">Explore app <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Demo Studio</span></a></div>
+      </div>
+    </article>
+
+    <article class="proj aws-project" id="project-citadel-studio">
+      <a class="aws-preview" href="https://citadel-studio.3-6-183-210.sslip.io" target="_blank" rel="noopener" aria-label="Open Citadel Studio">
+        <div class="preview-window">
+          <div class="preview-bar" aria-hidden="true"><span class="window-dots"><i></i><i></i><i></i></span><span>Citadel Studio</span><span class="aws-live">Live</span></div>
+          <div class="preview-image"><img src="assets/shots/aws-citadel-studio.png" alt="Citadel Studio — An agent workflow graph with source and execution controls" loading="lazy" decoding="async" width="1280" height="800"></div>
+        </div>
+      </a>
+      <div class="proj-body">
+        <h3>Citadel Studio</h3>
+        <div class="role">Understand how an agent is put together</div>
+        <p>Map an agent repository, inspect its source and explore execution traces in one workbench. Source maps stay distinct from runtime evidence, with a cached workflow you can run to see the difference.</p>
+        <div class="tags"><span class="tag">Agent graphs</span><span class="tag">Source mapping</span><span class="tag">Execution traces</span></div>
+        <div class="proj-links"><a class="plink live-link" href="https://citadel-studio.3-6-183-210.sslip.io" target="_blank" rel="noopener">Explore app <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Citadel Studio</span></a></div>
+      </div>
+    </article>
+
+    <article class="proj aws-project" id="project-market-research">
+      <a class="aws-preview" href="https://market-research.3-6-183-210.sslip.io" target="_blank" rel="noopener" aria-label="Open Market Research Agents">
+        <div class="preview-window">
+          <div class="preview-bar" aria-hidden="true"><span class="window-dots"><i></i><i></i><i></i></span><span>Market Research Agents</span><span class="aws-live">Live</span></div>
+          <div class="preview-image"><img src="assets/shots/aws-market-research.png" alt="Market Research Agents — Saved council activity with six prepared research and review stages" loading="lazy" decoding="async" width="1280" height="800"></div>
+        </div>
+      </a>
+      <div class="proj-body">
+        <h3>Market Research Agents</h3>
+        <div class="role">Research with a visible review process</div>
+        <p>Configure a council of research and review agents, follow their work and export the final report to PDF or PowerPoint. Prepared examples make the full workflow available without a model call.</p>
+        <div class="tags"><span class="tag">Research council</span><span class="tag">Review stages</span><span class="tag">Report exports</span></div>
+        <div class="proj-links"><a class="plink live-link" href="https://market-research.3-6-183-210.sslip.io" target="_blank" rel="noopener">Explore app <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Market Research Agents</span></a></div>
+      </div>
+    </article>
+
+    <article class="proj aws-project" id="project-model-arena">
+      <a class="aws-preview" href="https://model-arena.3-6-183-210.sslip.io" target="_blank" rel="noopener" aria-label="Open Model Arena">
+        <div class="preview-window">
+          <div class="preview-bar" aria-hidden="true"><span class="window-dots"><i></i><i></i><i></i></span><span>Model Arena</span><span class="aws-live">Live</span></div>
+          <div class="preview-image"><img src="assets/shots/aws-model-arena.png" alt="Model Arena — A comparison matrix showing prepared model answers and grades" loading="lazy" decoding="async" width="1280" height="800"></div>
+        </div>
+      </a>
+      <div class="proj-body">
+        <h3>Model Arena</h3>
+        <div class="role">Compare model answers on the same task</div>
+        <p>Run the same prompts across up to three models, add reference material and compare independently graded answers. Inspect scores and usage, then export the comparison to CSV or JSON.</p>
+        <div class="tags"><span class="tag">Model comparison</span><span class="tag">Blind grading</span><span class="tag">Evaluation</span></div>
+        <div class="proj-links"><a class="plink live-link" href="https://model-arena.3-6-183-210.sslip.io" target="_blank" rel="noopener">Explore app <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Model Arena</span></a></div>
+      </div>
+    </article>
+
+    <article class="proj aws-project" id="project-plotline">
+      <a class="aws-preview" href="https://plotline.3-6-183-210.sslip.io" target="_blank" rel="noopener" aria-label="Open Plotline">
+        <div class="preview-window">
+          <div class="preview-bar" aria-hidden="true"><span class="window-dots"><i></i><i></i><i></i></span><span>Plotline</span><span class="aws-live">Live</span></div>
+          <div class="preview-image"><img src="assets/shots/aws-plotline.png" alt="Plotline — A campaign conversation beside its generated image creative" loading="lazy" decoding="async" width="1280" height="800"></div>
+        </div>
+      </a>
+      <div class="proj-body">
+        <h3>Plotline</h3>
+        <div class="role">A creative workflow built around conversation</div>
+        <p>Turn a conversational brief into a reviewed image campaign. Work through concepts, storyboards and brand references, reroll an individual creative, and export an approved campaign bundle.</p>
+        <div class="tags"><span class="tag">Creative direction</span><span class="tag">Human review</span><span class="tag">Image generation</span></div>
+        <div class="proj-links"><a class="plink live-link" href="https://plotline.3-6-183-210.sslip.io" target="_blank" rel="noopener">Explore app <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Plotline</span></a></div>
+      </div>
+    </article>
+
+    <article class="proj aws-project" id="project-blindspot">
+      <a class="aws-preview" href="https://blindspot.3-6-183-210.sslip.io" target="_blank" rel="noopener" aria-label="Open Blindspot">
+        <div class="preview-window">
+          <div class="preview-bar" aria-hidden="true"><span class="window-dots"><i></i><i></i><i></i></span><span>Blindspot</span><span class="aws-live">Live</span></div>
+          <div class="preview-image"><img src="assets/shots/aws-blindspot.png" alt="Blindspot — An agent execution monitor showing a completed workflow and cost" loading="lazy" decoding="async" width="1280" height="800"></div>
+        </div>
+      </a>
+      <div class="proj-body">
+        <h3>Blindspot</h3>
+        <div class="role">Make agent quality and cost visible</div>
+        <p>Connect an agent through the SDK and inspect its model calls, execution traces and costs. Build evaluation evidence and review proposed routing changes before approving a model switch.</p>
+        <div class="tags"><span class="tag">Agent observability</span><span class="tag">Evaluation gates</span><span class="tag">Model routing</span></div>
+        <div class="proj-links"><a class="plink live-link" href="https://blindspot.3-6-183-210.sslip.io" target="_blank" rel="noopener">Explore app <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: Blindspot</span></a></div>
+      </div>
+    </article>
+
+    <article class="proj aws-project" id="project-gstpilot">
+      <a class="aws-preview" href="https://gstpilot.3-6-183-210.sslip.io" target="_blank" rel="noopener" aria-label="Open GSTPilot">
+        <div class="preview-window">
+          <div class="preview-bar" aria-hidden="true"><span class="window-dots"><i></i><i></i><i></i></span><span>GSTPilot</span><span class="aws-live">Live</span></div>
+          <div class="preview-image"><img src="assets/shots/aws-gstpilot.png" alt="GSTPilot — A historical filing illustration with extracted inputs and calculated late fee" loading="lazy" decoding="async" width="1280" height="800"></div>
+        </div>
+      </a>
+      <div class="proj-body">
+        <h3>GSTPilot</h3>
+        <div class="role">Separate extracted facts from calculated results</div>
+        <p>Ask source-grounded GST questions, inspect extracted facts, and review transparent filing calculations. A historical worked example shows each input and formula.</p>
+        <div class="tags"><span class="tag">Structured extraction</span><span class="tag">Deterministic calculation</span><span class="tag">Source evidence</span></div>
+        <div class="proj-links"><a class="plink live-link" href="https://gstpilot.3-6-183-210.sslip.io" target="_blank" rel="noopener">Explore app <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: GSTPilot</span></a></div>
+      </div>
+    </article>
+
+    <article class="proj aws-project" id="project-getcited">
+      <a class="aws-preview" href="https://getcited.3-6-183-210.sslip.io" target="_blank" rel="noopener" aria-label="Open GetCited">
+        <div class="preview-window">
+          <div class="preview-bar" aria-hidden="true"><span class="window-dots"><i></i><i></i><i></i></span><span>GetCited</span><span class="aws-live">Live</span></div>
+          <div class="preview-image"><img src="assets/shots/aws-getcited.png" alt="GetCited — A saved GEO action plan inside the assistant, clearly labelled as a prepared example" loading="lazy" decoding="async" width="1280" height="800"></div>
+        </div>
+      </a>
       <div class="proj-body">
         <h3>GetCited</h3>
-        <div class="role">Agentic GEO Platform — AI Citation Radar to Costed Plans</div>
-        <p>Benchmarks whether AI assistants (Claude, Perplexity, Gemini, Groq) recommend and cite a brand, then converts the gap into a costed, committed action plan — a greedy-knapsack allocator matches tactics to real budget and person-hours, grounded in crawled competitor-citation evidence. Runs three ways: a streaming agent chat with tool calls, a self-hosted-OAuth MCP connector installable straight into claude.ai, and BYOK self-serve with AES-GCM key storage — all with per-run cost caps and DOCX/PDF/Excel plan exports.</p>
-        <div class="tags"><span class="tag">Multi-LLM panel</span><span class="tag">MCP + OAuth</span><span class="tag">Vercel AI SDK</span><span class="tag">Next.js + Supabase</span></div>
-        <div class="proj-links"><a class="plink" href="https://getcited-one.vercel.app" target="_blank" rel="noopener">Visit live <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
+        <div class="role">From AI mentions to an action plan</div>
+        <p>Compare how AI models mention your brand, investigate gaps with the GEO assistant, and turn findings into a budgeted action plan with an approval tracker.</p>
+        <div class="tags"><span class="tag">Brand visibility</span><span class="tag">Budgeted plans</span><span class="tag">Action tracking</span></div>
+        <div class="proj-links"><a class="plink live-link" href="https://getcited.3-6-183-210.sslip.io" target="_blank" rel="noopener">Explore app <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg><span class="sr-only">: GetCited</span></a></div>
       </div>
-    </div>
+    </article>
+
+  </div>
+
+  <h2 class="sec">Other projects</h2>
+  <p class="sec-sub">More product experiments and client work, with their original live demos.</p>
+  <div class="proj-grid other-projects">
 
     <div class="proj">
       <div class="shot"><img src="assets/shots/creative-qc-agent.png" alt="Framewise — agent workflow architecture view" loading="lazy"><span class="live-dot">LIVE</span></div>
@@ -429,17 +594,6 @@ footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
     </div>
 
     <div class="proj">
-      <div class="shot"><img src="assets/shots/blindspot-dashboard.png" alt="Blindspot — eval-gated model and cost layer screenshot" loading="lazy"><span class="live-dot">LIVE</span></div>
-      <div class="proj-body">
-        <h3>Blindspot</h3>
-        <div class="role">Eval-Gated Model Routing &amp; Cost Governance for AI Agents</div>
-        <p>Gateways route on price and eval tools only observe — Blindspot makes the eval result gate the routing decision. A TypeScript SDK streams span telemetry from live agents, every model call-site gets a user-owned golden set, and budget-capped LLM-as-judge evals with reproducible stratified sampling produce evidence-backed swap recommendations a human must approve — never a silent model switch. A Turborepo monorepo (Hono OpenAI-compatible gateway, Next.js dashboard, BullMQ worker, Drizzle/Postgres) running an invite-only hosted beta with a real production app connected.</p>
-        <div class="tags"><span class="tag">LLM evals</span><span class="tag">Model routing</span><span class="tag">LLM-as-judge</span><span class="tag">TypeScript monorepo</span></div>
-        <div class="proj-links"><a class="plink" href="https://blindspot-dashboard.vercel.app" target="_blank" rel="noopener">Visit live <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
-      </div>
-    </div>
-
-    <div class="proj">
       <div class="shot"><img src="assets/shots/prism-v1.png" alt="Prism — Claude Code ROI index screenshot" loading="lazy"><span class="live-dot">LIVE</span></div>
       <div class="proj-body">
         <h3>Prism</h3>
@@ -447,17 +601,6 @@ footer{border-top:1px solid var(--line);padding:44px 0 56px;margin-top:20px}
         <p>Scores the ROI of Claude Code spend across an engineering org: an LLM-free engine distills GitHub PRs, Claude Code sessions and Sentry signals into two 0–100 indexes — outcomes and practices — via a within-person linkage engine and confidence-laddered AI-to-PR attribution. A hard determinism boundary keeps LLMs out of the math; on top sits a grounded coaching agent whose every number is validated against an assembled facts block before it reaches the user. Next.js 15 + Supabase monorepo with a versioned per-KPI weight editor, daily Inngest pipeline, GitHub App connector and 288 tests.</p>
         <div class="tags"><span class="tag">Deterministic scoring</span><span class="tag">Next.js 15 + Supabase</span><span class="tag">Anthropic SDK</span><span class="tag">Inngest</span></div>
         <div class="proj-links"><a class="plink" href="https://prism-v1-web.vercel.app" target="_blank" rel="noopener">Visit live <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
-      </div>
-    </div>
-
-    <div class="proj">
-      <div class="shot"><img src="assets/shots/gstpilot.png" alt="GSTPilot chat interface screenshot" loading="lazy"><span class="live-dot">LIVE</span></div>
-      <div class="proj-body">
-        <h3>GSTPilot</h3>
-        <div class="role">Eval-Gated Legal RAG Agent for Indian GST</div>
-        <p>Every legal claim must cite an exact section or notification — a deterministic citation-verification gate forces honest abstention over hallucination, and high-stakes notices escalate to a human Chartered Accountant. Under the hood: a 410-document corpus of live GST law with hybrid retrieval (bge-m3 dense vectors + IDF keyword search + rank fusion on pgvector), Claude-powered lanes with deterministic in-code calculators, and per-user memory with confidence decay. A 60-case golden eval suite with pass^5 consistency scoring and Langfuse tracing gates every change.</p>
-        <div class="tags"><span class="tag">Legal RAG</span><span class="tag">Hybrid retrieval</span><span class="tag">Eval-gated CI</span><span class="tag">Claude + Langfuse</span></div>
-        <div class="proj-links"><a class="plink" href="https://gstpilot-lac.vercel.app" target="_blank" rel="noopener">Visit live <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
       </div>
     </div>
 
